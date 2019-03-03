@@ -1,0 +1,26 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "generates qrcode on the fly",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pramod gaddam",
+  "license": "ISC",
+  "keywords": [
+    "qrcode",
+    "node",
+    "javascript",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reddy27/qrcode-generator-server-side"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "qrcode": "^1.3.3"
+  }
+}
